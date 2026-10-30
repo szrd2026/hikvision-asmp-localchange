@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Hikvision ASMP Local Change Tool</title>
+  <desc id="desc">Portable Windows GUI for batch RMA local-change submissions to Hikvision ASMP.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070D18"/>
+      <stop offset="0.55" stop-color="#0B1626"/>
+      <stop offset="1" stop-color="#0E2230"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#14B8A6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1E3A4A" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="320" rx="24"/>
+    </clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <circle cx="1130" cy="60" r="220" fill="url(#glow)"/>
+    <circle cx="1180" cy="300" r="180" fill="url(#glow)" opacity="0.5"/>
+    <rect x="0" y="0" width="8" height="320" fill="url(#accent)"/>
+
+    <text x="72" y="68" fill="#5EEAD4" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.4">HIKVISION ASMP · RMA WORKFLOW</text>
+
+    <text x="72" y="145" fill="#F8FAFC" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1">Local Change <tspan fill="#5EEAD4">Tool</tspan></text>
+
+    <text x="74" y="190" fill="#CBD5E1" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="500">海康威视 ASMP 本地换新批量提交工具</text>
+
+    <text x="74" y="223" fill="#94A3B8" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17">Portable Windows GUI · Batch submit · Configurable workflow · Local audit logs</text>
+
+    <g font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="600">
+      <rect x="74" y="252" width="126" height="30" rx="15" fill="#0F2A33" stroke="#1E5A5A"/>
+      <text x="137" y="272" fill="#99F6E4" text-anchor="middle">Windows 10/11</text>
+
+      <rect x="212" y="252" width="126" height="30" rx="15" fill="#102333" stroke="#1E4A66"/>
+      <text x="275" y="272" fill="#BAE6FD" text-anchor="middle">PowerShell 5.1</text>
+
+      <rect x="350" y="252" width="82" height="30" rx="15" fill="#1B2434" stroke="#334155"/>
+      <text x="391" y="272" fill="#E2E8F0" text-anchor="middle">MIT</text>
+
+      <rect x="444" y="252" width="102" height="30" rx="15" fill="#1B2434" stroke="#334155"/>
+      <text x="495" y="272" fill="#E2E8F0" text-anchor="middle">v1.0.0</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="846" y="54" width="360" height="214" rx="22" fill="#0C1B2A" stroke="#1E4054"/>
+      <rect x="846" y="54" width="360" height="42" rx="22" fill="#102538"/>
+      <rect x="846" y="76" width="360" height="20" fill="#102538"/>
+      <circle cx="870" cy="75" r="5" fill="#F87171"/>
+      <circle cx="888" cy="75" r="5" fill="#FBBF24"/>
+      <circle cx="906" cy="75" r="5" fill="#34D399"/>
+      <text x="1160" y="80" fill="#64889E" font-family="Consolas, monospace" font-size="12" text-anchor="end">ASMP / RMA</text>
+
+      <circle cx="1026" cy="158" r="56" fill="#0A2230" stroke="#145A66" stroke-width="1.5"/>
+      <path d="M986 142a42 42 0 0 1 68-17" fill="none" stroke="#2DD4BF" stroke-width="7" stroke-linecap="round"/>
+      <path d="M1054 125l3 24-24-2" fill="none" stroke="#2DD4BF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1066 174a42 42 0 0 1-68 17" fill="none" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+      <path d="M998 191l-3-24 24 2" fill="none" stroke="#38BDF8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g fill="#E2E8F0">
+        <rect x="1009" y="147" width="3" height="24" rx="1"/>
+        <rect x="1016" y="147" width="6" height="24" rx="1"/>
+        <rect x="1026" y="147" width="3" height="24" rx="1"/>
+        <rect x="1033" y="147" width="2" height="24" rx="1"/>
+        <rect x="1039" y="147" width="5" height="24" rx="1"/>
+        <rect x="1048" y="147" width="3" height="24" rx="1"/>
+      </g>
+
+      <g font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+        <text x="1104" y="137" fill="#5EEAD4" font-size="13" font-weight="700">BATCH</text>
+        <text x="1104" y="158" fill="#94A3B8" font-size="12">RMA list</text>
+        <text x="1104" y="180" fill="#5EEAD4" font-size="13" font-weight="700">SAFE</text>
+        <text x="1104" y="201" fill="#94A3B8" font-size="12">skip done</text>
+      </g>
+
+      <rect x="884" y="226" width="284" height="22" rx="11" fill="#0A2230" stroke="#1E4054"/>
+      <circle cx="899" cy="237" r="4" fill="#34D399"/>
+      <text x="912" y="241" fill="#7DD3C7" font-family="Consolas, monospace" font-size="11">token in memory · logs masked</text>
+    </g>
+
+    <text x="1206" y="302" fill="#47657A" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="12" text-anchor="end">Unofficial utility · not affiliated with Hikvision</text>
+  </g>
+</svg>

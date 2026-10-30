@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Runtime credentials, local configuration and business data
+# ---------------------------------------------------------------------------
+# Never commit session tokens or local configuration.
+hik_token.txt
+localchange_config.json
+localchange_config.*.json
+submit_config.json
+
+# Runtime output: logs and submission records may contain serial numbers,
+# customer names and full API payloads.
+logs/
+localchange_records.csv
+submit_records.csv
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+dist/
+build/
+out/
+*.exe
+*.msi
+*.zip
+*.7z
+*.pdb
+*.log
+
+# ---------------------------------------------------------------------------
+# Python / Node.js (not used by this project, ignored defensively)
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------------------------------
+# Local environment and caches
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.local
+.cache/
+.tmp/
+temp/
+
+# ---------------------------------------------------------------------------
+# Editors and operating system
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
