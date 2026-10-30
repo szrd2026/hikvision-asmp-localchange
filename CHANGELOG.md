@@ -44,3 +44,8 @@ and the project uses [Semantic Versioning](https://semver.org/).
   "Unknown publisher" warning.
 - A valid ASMP account, permission scope and unexpired session token are
   required; the tool does not perform login.
+- Tested on Windows 10 x64 (build 19044); Windows 11 is expected to work but was
+  not separately verified for this release.
+- The executable is DPI-unaware to preserve the intended 980x720 layout. On
+  high-DPI displays Windows may bitmap-scale the window, so text can look
+  slightly soft.

@@ -48,6 +48,11 @@ duplicate protection and a local audit log.
 - Logs contain full API payloads, serial numbers and customer information.
   Treat them as business-confidential data.
 - Windows x64 only. There is no macOS/Linux build and no mobile version.
+- Tested on Windows 10 x64 (build 19044); Windows 11 is expected to work but was
+  not separately verified for this release.
+- The executable is DPI-unaware to preserve the intended 980×720 layout. On
+  high-DPI displays Windows may bitmap-scale the window, so text can look
+  slightly soft.
 - No auto-update mechanism. Download new releases manually.
 
 ## Release assets
